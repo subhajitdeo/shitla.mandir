@@ -3201,10 +3201,7 @@ img, video {
 }
 
 /* Flexible columns */
-[class*="col"] {
-  flex: 1 1 auto;
-  min-width: 0;
-}
+
 
 /* Sections spacing fix */
 section {

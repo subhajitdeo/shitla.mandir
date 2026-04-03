@@ -3220,7 +3220,18 @@ section {
 }
 
 
-/* shifted tax fix added by mefix */
+/* shifted text fix added by me */
 .special-text {
   text-align: left;
+}
+
+
+/* shifted text fix added by me(last) */
+.event-list li {
+  padding-left: 0 !important;
+}
+
+.event-list .tweet {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
 }

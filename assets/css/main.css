@@ -111,7 +111,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #483949;
+		color: #cb3434;
 		line-height: 1.25em;
 	}
 
@@ -2163,7 +2163,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		background: #fff;
+		background: #d9c074;
 		margin: 0 0 2em 0;
 		padding: 6em 0 6em 0;
 	}
@@ -2180,7 +2180,7 @@ input, select, textarea {
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
-		color: #fff;
+		color: #d9c074;
 		text-align: center;
 		padding: 7.5em 0 2em 0;
 		cursor: default;
@@ -2211,7 +2211,7 @@ input, select, textarea {
 			}
 
 		#header h1 {
-			color: #fff;
+			color: #d9c074;
 			font-size: 3em;
 			line-height: 1em;
 		}
@@ -2257,7 +2257,7 @@ input, select, textarea {
 
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			background: #4b0707;
 			display: block;
 			position: absolute;
 			left: 0;
@@ -2590,7 +2590,7 @@ input, select, textarea {
 		.carousel article {
 			display: inline-block;
 			width: 18em;
-			background: #fff;
+			background: #f7e3a4;
 			text-align: center;
 			padding: 0 1em 3em 1em;
 			margin: 0 2em 0 0;
@@ -3222,4 +3222,114 @@ section {
 /*added by me*/
 .indent {
   text-indent: 30px;
+}
+
+/*new 1.1*/
+
+
+/* ===================================
+   Golden Spiritual Temple Background
+   =================================== */
+
+html {
+    background-color: #4b0707;
+}
+
+body.homepage {
+    background-color: #600b1b;
+}
+
+/* Main temple heading background */
+#header {
+    background-color: #600b1b;
+    background-image:
+        linear-gradient(
+            rgba(60, 25, 0, 0.35),
+            rgba(60, 25, 0, 0.50)
+        ),
+        url("../../images/header.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Golden glow for the temple title */
+#header h1 {
+    color: #fff3c4;
+    text-shadow:
+        0 2px 5px rgba(0, 0, 0, 0.65),
+        0 0 18px rgba(255, 190, 50, 0.45);
+}
+
+/* Warm golden banner */
+#banner {
+    background-color: #fff0c2;
+    background-image: linear-gradient(
+        135deg,
+        #fff4d2,
+        #f5d17a,
+        #fff0c2
+    );
+}
+
+/* Warm background for the main information section */
+.wrapper.style2 {
+    background-color: #f8e5b8;
+}
+
+/* Warm background for the features section */
+.wrapper.style1 {
+    background-color: #f8e5b8;
+}
+
+/*new 1.2.2*/
+
+/* ==========================================
+   BENGALI ALPANA — SEPARATE FLORAL MOTIFS
+   ========================================== */
+
+#page-wrapper {
+    position: relative;
+}
+
+#page-wrapper::before,
+#page-wrapper::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 76px;
+    z-index: 50;
+    pointer-events: none;
+
+    background-color: #c81c1c;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='76' height='200' viewBox='0 0 76 200'%3E%3Cg fill='none' stroke='%23fff0d0' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3C!-- top leaves --%3E%3Cpath d='M38 15 Q15 0 13 18 Q19 31 38 15Z'/%3E%3Cpath d='M38 15 Q61 0 63 18 Q57 31 38 15Z'/%3E%3C!-- upper lotus --%3E%3Cpath d='M38 50 Q22 39 25 26 Q36 32 38 50 Q40 32 51 26 Q54 39 38 50Z'/%3E%3Cpath d='M38 50 Q10 47 13 34 Q28 35 38 50 Q48 35 63 34 Q66 47 38 50Z'/%3E%3Cpath d='M38 50 Q25 60 20 52 Q27 44 38 50 Q49 44 56 52 Q51 60 38 50Z'/%3E%3Cpath d='M31 47 Q38 40 45 47 M34 50 Q38 46 42 50'/%3E%3C!-- leaves --%3E%3Cpath d='M38 72 Q17 53 14 69 Q21 80 38 72Z'/%3E%3Cpath d='M38 72 Q59 53 62 69 Q55 80 38 72Z'/%3E%3Cpath d='M38 72 Q24 65 23 74 Q30 82 38 72Z'/%3E%3Cpath d='M38 72 Q52 65 53 74 Q46 82 38 72Z'/%3E%3C!-- mandala --%3E%3Ccircle cx='38' cy='100' r='15'/%3E%3Ccircle cx='38' cy='100' r='9'/%3E%3Cpath d='M38 85 Q30 74 27 84 Q29 91 38 85 Q47 91 49 84 Q46 74 38 85Z'/%3E%3Cpath d='M53 100 Q64 92 55 87 Q48 89 53 100 Q48 111 55 113 Q64 108 53 100Z'/%3E%3Cpath d='M38 115 Q46 126 49 116 Q47 109 38 115 Q29 109 27 116 Q30 126 38 115Z'/%3E%3Cpath d='M23 100 Q12 108 21 113 Q28 111 23 100 Q28 89 21 87 Q12 92 23 100Z'/%3E%3Cpath d='M32 94 Q38 87 44 94 Q51 100 44 106 Q38 113 32 106 Q25 100 32 94Z'/%3E%3C!-- lower lotus --%3E%3Cpath d='M38 151 Q22 140 25 127 Q36 133 38 151 Q40 133 51 127 Q54 140 38 151Z'/%3E%3Cpath d='M38 151 Q10 148 13 135 Q28 136 38 151 Q48 136 63 135 Q66 148 38 151Z'/%3E%3Cpath d='M38 151 Q25 161 20 153 Q27 145 38 151 Q49 145 56 153 Q51 161 38 151Z'/%3E%3C!-- separate ornamental curls --%3E%3Cpath d='M20 177 C8 165 13 157 22 164 C29 170 20 176 17 170'/%3E%3Cpath d='M56 177 C68 165 63 157 54 164 C47 170 56 176 59 170'/%3E%3Cpath d='M28 180 Q38 169 48 180 Q38 188 28 180Z'/%3E%3C/g%3E%3Cg fill='%23f5ca71'%3E%3Ccircle cx='38' cy='50' r='2'/%3E%3Ccircle cx='38' cy='100' r='2.5'/%3E%3Ccircle cx='38' cy='151' r='2'/%3E%3Ccircle cx='18' cy='20' r='1.5'/%3E%3Ccircle cx='58' cy='20' r='1.5'/%3E%3Ccircle cx='18' cy='180' r='1.5'/%3E%3Ccircle cx='58' cy='180' r='1.5'/%3E%3C/g%3E%3C/svg%3E");
+
+    background-repeat: repeat-y;
+    background-position: center top;
+    background-size: 76px 200px;
+
+    border-left: 2px solid #f5ca71;
+    border-right: 2px solid #f5ca71;
+    box-shadow: 0 0 12px rgba(65, 24, 0, 0.3);
+}
+
+/* Side placement */
+#page-wrapper::before {
+    left: 0;
+}
+
+#page-wrapper::after {
+    right: 0;
+}
+
+/* Mobile: larger, visible alpana */
+@media screen and (max-width: 736px) {
+    #page-wrapper::before,
+    #page-wrapper::after {
+        width: 20px;
+        background-size: 20px 75px;
+        opacity: 1;
+    }
 }
